@@ -2,19 +2,16 @@ body {
     background-color: white;
 }
 
-img {
-    width: 70%;
-    height: auto;
-    padding: 1px;
-
-
-}
-
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
+.main-pic img {
+    justify-content: center;
+    width: 99%;
+    height: auto;
+    padding: 1px;
+}
 
 * {
     /* border: 2px solid red; */
@@ -24,28 +21,43 @@ img {
     background-color: whitesmoke;
     display: flex;
     padding: 10px;
-    /* border: 1px solid black; */
-    margin: 10;
+    /* border: 1px solid black;
+    border-radius: 0.9em; */
+    margin: 1px;
     justify-content: right;
     gap: 1rem;
     flex-wrap: wrap;
 }
 
+
 h1 {
     text-align: center;
-    /* background-color: rgb(239, 240, 233); */
 }
 
 .top-menu a {
     color: black;
     text-decoration: none;
+
 }
 
-a:hover {
+.icon {
+    border: none;
+}
+
+.top-menu a:hover {
     font-weight: bold;
+    /* border: 1px solid black;
+    border-radius: 3rem;
+    padding: 6px; */
+
 }
 
 
+.list a:hover {
+    font-weight: bold;
+
+
+}
 
 .button-top-menu {
     padding: 4px;
