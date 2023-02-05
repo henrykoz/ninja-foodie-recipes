@@ -6,7 +6,7 @@ img {
     width: 70%;
     height: auto;
     padding: 1px;
-    
+
 
 }
 
@@ -39,8 +39,13 @@ h1 {
 .top-menu a {
     color: black;
     text-decoration: none;
-
 }
+
+a:hover {
+    font-weight: bold;
+}
+
+
 
 .button-top-menu {
     padding: 4px;
