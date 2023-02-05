@@ -29,6 +29,9 @@ body {
     flex-wrap: wrap;
 }
 
+.top-menu img:hover {
+    transform: scale(1.2);
+}
 
 h1 {
     text-align: center;
@@ -40,15 +43,13 @@ h1 {
 
 }
 
+
 .icon {
     border: none;
 }
 
 .top-menu a:hover {
-    font-weight: bold;
-    /* border: 1px solid black;
-    border-radius: 3rem;
-    padding: 6px; */
+ font-weight: bold;
 
 }
 
