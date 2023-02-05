@@ -3,9 +3,10 @@ body {
 }
 
 img {
-    width: 100%;
+    width: 70%;
     height: auto;
     padding: 1px;
+    
 
 }
 
@@ -63,7 +64,7 @@ h1 {
     /* background-color: whitesmoke; */
 }
 
-p {
+.footer p {
     text-align: center;
     padding-top: 70%;
     /* background-color: whitesmoke; */
