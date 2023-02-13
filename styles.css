@@ -19,6 +19,7 @@ body {
 .main-pic img {
     width: 99%;
     padding: 1px;
+    border-radius: 9px;
 
 }
 
